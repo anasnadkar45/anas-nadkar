@@ -1,11 +1,10 @@
 import { ThemeProvider } from '@/components/ui/theme-provider';
 import './globals.css';
-import { Amaranth, Anton_SC, Dancing_Script, Inter, Lato, Poppins, Titillium_Web, Urbanist } from 'next/font/google';
+import { Amaranth, Dancing_Script, Inter, Lato, Poppins, Titillium_Web, Urbanist } from 'next/font/google';
 import { Toaster } from '@/components/ui/toaster';
 import Image from 'next/image';
 
 export const inter = Inter({ subsets: ["latin"] });
-export const anton_sc = Anton_SC({ weight: "400", subsets: ["latin"] });
 export const poppins = Poppins({ weight: "900", subsets: ["latin"] });
 export const dancing = Dancing_Script({ weight: "400", subsets: ["latin"] });
 export const lato = Lato({ weight: "400", subsets: ["latin"] });
