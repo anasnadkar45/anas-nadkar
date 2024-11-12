@@ -37,7 +37,7 @@ export function Contact() {
           <SocialLink href="https://www.x.com/NadkarAnas45" icon="𝕏" label="Twitter" />
           <SocialLink href="https://www.linkedin.com/in/anas-nadkar-2765121a9/" icon="in" label="LinkedIn" />
           <SocialLink href="https://github.com/anasnadkar45/" icon={<Github />} label="Github" />
-          <SocialLink href="https://drive.google.com/file/d/11QC4TT_2VKsXQn0itPu2VvOR30pUfjT-/view?usp=drive_link" icon="📄" label="Read.cv" />
+          <SocialLink href="https://drive.google.com/file/d/1muPp3pD4J_m-P2BhD-NqExT-N5Kjrm-a/view?usp=drive_link" icon="📄" label="Read.cv" />
         </div>
       </motion.div>
     </section>
