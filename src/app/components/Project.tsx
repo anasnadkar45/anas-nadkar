@@ -31,7 +31,7 @@ const projects: ProjectType[] = [
     title: 'Studify',
     description: 'An AI-powered study assistant that generates personalized study plans from PDF uploads, featuring AI-curated resources, quizzes, and summaries to enhance study efficiency. Includes community features for sharing study plans and tracking progress, with optimized resource load times for an improved user experience.',
     tags: ['Next.js', 'Tailwind', 'TypeScript', 'Gemini AI', 'Supabase', 'Prisma', 'KindeAuth'],
-    link: 'https://studify-app.vercel.app/', // Replace with the actual Studify link if available
+    link: 'https://studify-omega.vercel.app/', // Replace with the actual Studify link if available
     images: [Studify1, Studify2, Studify3, Studify4,Studify5], // Replace with actual images for Studify if available
   },
   {
