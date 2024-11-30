@@ -26,7 +26,7 @@ const techCategories = [
         title: "Backend Development",
         icon: Server,
         description: "Crafting scalable server-side solutions",
-        technologies: ["NodeJS", "ExpressJS", "GraphQL", "REST APIs"],
+        technologies: ["NodeJS", "ExpressJS", "REST APIs"],
         gradient: "from-purple-500 to-pink-500",
         bgGlow: "group-hover:bg-purple-500/20"
     },
@@ -39,26 +39,10 @@ const techCategories = [
         bgGlow: "group-hover:bg-green-500/20"
     },
     {
-        title: "Mobile Development",
-        icon: Smartphone,
-        description: "Creating native mobile app experiences",
-        technologies: ["Android Studio", "React Native"],
-        gradient: "from-orange-500 to-yellow-500",
-        bgGlow: "group-hover:bg-orange-500/20"
-    },
-    {
-        title: "DevOps & Cloud",
-        icon: Cloud,
-        description: "Ensuring smooth deployment and operations",
-        technologies: ["AWS", "Docker", "CI/CD", "Vercel"],
-        gradient: "from-red-500 to-rose-500",
-        bgGlow: "group-hover:bg-red-500/20"
-    },
-    {
         title: "Programming Languages",
         icon: Code2,
         description: "Core programming expertise",
-        technologies: ["JavaScript", "C", "C++", "Python"],
+        technologies: ["JavaScript", "C++", "Python"],
         gradient: "from-indigo-500 to-violet-500",
         bgGlow: "group-hover:bg-indigo-500/20"
     }
