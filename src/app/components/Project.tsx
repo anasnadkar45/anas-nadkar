@@ -17,6 +17,21 @@ import Studify2 from '../../../public/Studify2.png'
 import Studify3 from '../../../public/Studify3.png'
 import Studify4 from '../../../public/Studify4.png'
 import Studify5 from '../../../public/Studify5.png'
+import MyTutor1 from '../../../public/MyTutor1.png'
+import MyTutor2 from '../../../public/MyTutor2.png'
+import MyTutor3 from '../../../public/MyTutor3.png'
+import MyTutor4 from '../../../public/MyTutor4.png'
+import MyTutor5 from '../../../public/MyTutor5.png'
+import MyTutor6 from '../../../public/MyTutor6.png'
+import MyTutor7 from '../../../public/MyTutor7.png'
+import WaitWise1 from '../../../public/WaitWise1.png'
+import WaitWise2 from '../../../public/WaitWise2.png'
+import WaitWise3 from '../../../public/WaitWise3.png'
+import WaitWise4 from '../../../public/WaitWise4.png'
+import WaitWise5 from '../../../public/WaitWise5.png'
+import WaitWise6 from '../../../public/WaitWise6.png'
+
+
 
 interface ProjectType {
   title: string;
@@ -28,15 +43,29 @@ interface ProjectType {
 
 const projects: ProjectType[] = [
   {
+    title: 'MyTutor',
+    description: 'MyTutor connects learners with expert tutors through AI-powered matching. Utilizing Next.js and Gemini AI, the platform ensures personalized learning experiences with secure authentication and efficient data management.',
+    tags: ['Next.js', 'Tailwind', 'TypeScript', 'Gemini AI', 'Supabase', 'Prisma', 'Auth.js', 'GetStream.io'],
+    link: 'https://my-tutor-v2.vercel.app/', 
+    images: [MyTutor1, MyTutor2, MyTutor3, MyTutor4, MyTutor5,MyTutor6, MyTutor7], 
+  },
+  {
+    title: 'WaitWise',
+    description: 'WaitWise is an AI-powered waitlist management platform that enables project owners to create waitlist pages, collect submissions, and engage users with AI-generated project insights. Features include CSV export for user emails, AI-powered project recommendations, and scalable serverless architecture.',
+    tags: ['Next.js', 'Tailwind', 'TypeScript', 'Google Gemini AI', 'Prisma', 'PostgreSQL', 'Auth.js'],
+    link: 'https://dev-zenith-v2.vercel.app/',
+    images: [WaitWise1, WaitWise2, WaitWise3, WaitWise4, WaitWise5, WaitWise6],
+  },
+  {
     title: 'Studify',
     description: 'An AI-powered study assistant that generates personalized study plans from PDF uploads, featuring AI-curated resources, quizzes, and summaries to enhance study efficiency. Includes community features for sharing study plans and tracking progress, with optimized resource load times for an improved user experience.',
     tags: ['Next.js', 'Tailwind', 'TypeScript', 'Gemini AI', 'Supabase', 'Prisma', 'KindeAuth'],
-    link: 'https://studify-omega.vercel.app/', // Replace with the actual Studify link if available
-    images: [Studify1, Studify2, Studify3, Studify4,Studify5], // Replace with actual images for Studify if available
+    link: 'https://studify-omega.vercel.app/',
+    images: [Studify1, Studify2, Studify3, Studify4, Studify5],
   },
   {
     title: 'DevZenith',
-    description: 'A collaboration platform enabling users to join projects based on skills like frontend, backend, AI/ML, and more, promoting teamwork and productivity through task management, resources sharing, and video meetings.',
+    description: 'A collaboration platform enabling users to join projects based on skills like frontend, backend, AI/ML, and more, promoting teamwork and productivity through task management, resource sharing, and video meetings.',
     tags: ['Next.js', 'Tailwind', 'TypeScript', 'Supabase', 'Prisma', 'KindeAuth'],
     link: 'https://dev-zenith-v2.vercel.app/',
     images: [Devzenith1, Devzenith2, Devzenith3, Devzenith4],
@@ -56,6 +85,7 @@ const projects: ProjectType[] = [
     images: [Projectshub1, Projectshub2],
   },
 ];
+
 
 interface ProjectCardProps {
   title: string;
